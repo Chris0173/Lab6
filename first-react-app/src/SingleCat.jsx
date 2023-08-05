@@ -9,7 +9,7 @@ const SingleCat = ({ cat, onDelete }) => {
         <div>
           <h3>{cat.name}</h3>
           <p>Latin Name: {cat.latinName}</p>
-          <img src={cat.image} alt={cat.name} />
+          <img src={cat.image} alt={cat.name} className="cat-image" />
           <button onClick={handleDelete}>Delete</button>
         </div>
       );
